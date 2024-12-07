@@ -7,3 +7,16 @@ for i in range(len(y)):
     else:
         print('number is ok')
 
+import matplotlib.pyplot as plt
+from matplotlib import style
+
+style.use ('ggplot')
+
+import numpy as np
+
+x_new = np.linspace(0,100,2)
+y_new = np.cos(x_new)
+
+plt.plot(x_new,y_new)
+plt.show()
+
