@@ -10,6 +10,7 @@ for i in range(len(y)):
 import matplotlib.pyplot as plt
 from matplotlib import style
 import math
+from math import sqrt
 
 style.use ('ggplot')
 
