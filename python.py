@@ -21,4 +21,4 @@ y_new = np.cos(x_new)
 
 plt.bar(x_new,y_new)
 plt.show()
-
+ax = plt.figure()
