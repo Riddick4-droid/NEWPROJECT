@@ -19,6 +19,6 @@ import numpy as np
 x_new = np.linspace(0,100,2)
 y_new = np.cos(x_new)
 
-plt.bar(x_new,y_new)
+plt.scstter(x_new,y_new)
 plt.show()
 ax = plt.figure()
