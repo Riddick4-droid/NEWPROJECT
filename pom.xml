@@ -1,4 +1,4 @@
-<build>
+<proeject>
     <plugins>
         <plugin>
             <groupId>org.codehaus.mojo</groupId>
@@ -20,5 +20,5 @@
             </configuration>
         </plugin>
     </plugins>
-</build>
+</project>
 
